@@ -1,0 +1,16 @@
+{
+  "name": "temp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node -r esm Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boardgame.io": "^0.43.3",
+    "esm": "^3.2.25"
+  }
+}
