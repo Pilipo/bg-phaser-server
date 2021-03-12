@@ -1,6 +1,7 @@
 import { INVALID_MOVE } from 'boardgame.io/core';
 
 export const TTT = {
+  name: 'TicTacToe',
   setup: () => ({
     cells: Array(9).fill(null),
   }),
